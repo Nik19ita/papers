@@ -631,8 +631,9 @@ body {
 .footer {
   padding: 47px 0 38px;
   min-height: 133px;
-  background-image: url(../images/footer/bg.jpg);
+  background-image: url('../images/footer/bg.jpg');
   background-repeat: no-repeat;
+  background-size: cover;
 
   &__container {
     display: flex;
