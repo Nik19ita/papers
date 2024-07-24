@@ -6,9 +6,9 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Shopguide</title>
     <link rel="icon" type="image/png" href="images/favicon.ico" />
-    <link rel="stylesheet" href="./css/normolize.css" />
-    <link rel="stylesheet" href="./css/style.css" />
-    <link rel="stylesheet" href="./css/media.css" />
+    <link rel="stylesheet" href="./src/css/normolize.css" />
+    <link rel="stylesheet" href="./src/css/style.scss" />
+    <link rel="stylesheet" href="./src/css/media.scss" />
   </head>
   <body>
     <header class="header">
@@ -16,23 +16,23 @@
         <div class="header__top header-top">
           <div class="header-top__left-block">
             <a class="header-top__link" href="#" onclick="return false;">
-              <img class="header-top__img" src="./images/header/icon_vk.svg" />
+              <img class="header-top__img" src="./src/images/header/icon_vk.svg" alt="icon_vk"/>
             </a>
 
             <a class="header-top__link" href="#" onclick="return false;">
-              <img class="header-top__img" src="./images/header/icon_tw.svg" />
+              <img class="header-top__img" src="./src/images/header/icon_tw.svg" alt="twitter"/>
             </a>
 
             <a class="header-top__link" href="#" onclick="return false;">
-              <img class="header-top__img" src="./images/header/icon_ig.svg" />
+              <img class="header-top__img" src="./src/images/header/icon_ig.svg" alt="instagramm"/>
             </a>
 
             <a class="header-top__link" href="#" onclick="return false;">
-              <img class="header-top__img" src="./images/header/icon_fb.svg" />
+              <img class="header-top__img" src="./src/images/header/icon_fb.svg" alt="facebook"/>
             </a>
 
             <a class="header-top__link" href="#" onclick="return false;">
-              <img class="header-top__img" src="./images/header/icon_ok.svg" />
+              <img class="header-top__img" src="./src/images/header/icon_ok.svg" alt="однокласники"/>
             </a>
           </div>
 
@@ -43,15 +43,16 @@
           <div class="header-bottom__top header-bottom-top">
             <picture class="header-bottom-top__picture">
               <source
-                srcset="./images/header/shopguide-mobile.svg"
+                srcset="./src/images/header/shopguide-mobile.svg"
                 media="(max-width: 391px)"
               />
               <img
                 class="header-bottom-top__img"
-                src="./images/header/shopguide.svg"
+                src="./src/images/header/shopguide.svg"
+                alt="shopguide"
               />
             </picture>
-            <img class="header-bottom-top__popup" src="./images/popup.svg" />
+            <img class="header-bottom-top__popup" src="./src/images/popup.svg" />
           </div>
 
           <div class="header-bottom__center header-bottom-center">
@@ -68,7 +69,8 @@
             >
               <img
                 class="header-bottom-bottom__img"
-                src="./images/header/download_ios.svg"
+                src="./src/images/header/download_ios.svg"
+                alt=""
               />
             </a>
             <a
@@ -78,11 +80,12 @@
               ><img
                 class="header-bottom-bottom__img"
                 src="./images/header/download_android.svg"
+                alt=""
             /></a>
           </div>
         </div>
 
-        <img class="header__telephone" src="./images/header/phone.svg" alt="" />
+        <img class="header__telephone" src="./src/images/header/phone.svg" alt="telephone" />
 
         <div class="header-swipe">
           <span class="header-swipe__text">вниз</span>
@@ -100,7 +103,8 @@
               <article class="about__artical">
                 <img
                   class="about__img about__img_1"
-                  src="./images/about/artical-1.svg"
+                  src="./src/images/about/artical-1.svg"
+                  alt=""
                 />
                 <h2 class="about__h2">Только лучшие</h2>
                 <p class="about__paragraf">
@@ -113,7 +117,8 @@
               <article class="about__artical">
                 <img
                   class="about__img about__img_2"
-                  src="./images/about/artical-2.svg"
+                  src="./src/images/about/artical-2.svg"
+                  alt=""
                 />
                 <h2 class="about__h2">Всегда рядом</h2>
                 <p class="about__paragraf">
@@ -126,7 +131,8 @@
               <article class="about__artical">
                 <img
                   class="about__img about__img_3"
-                  src="./images/about/artical-3.svg"
+                  src="./src/images/about/artical-3.svg"
+                  alt=""
                 />
                 <h2 class="about__h2">Уведомления</h2>
                 <p class="about__paragraf">
@@ -140,7 +146,8 @@
               <article class="about__artical">
                 <img
                   class="about__img about__img_4"
-                  src="./images/about/artical-4.svg"
+                  src="./src/images/about/artical-4.svg"
+                  alt=""
                 />
                 <h2 class="about__h2">Каталог</h2>
                 <p class="about__paragraf">
@@ -162,15 +169,18 @@
               <div class="mobile__content">
                 <img
                   class="mobile__mobile"
-                  src="./images/different/mobile.svg"
+                  src="./src/images/different/mobile.svg"
+                  alt=""
                 />
                 <img
                   class="mobile__mobile-display"
-                  src="./images/different/mobile-display.svg"
+                  src="./src/images/different/mobile-display.svg"
+                  alt=""
                 />
                 <img
                   class="mobile__swadow"
-                  src="./images/different/swadow.svg"
+                  src="./src/images/different/swadow.svg"
+                  alt=""
                 />
               </div>
             </div>
@@ -204,11 +214,13 @@
         <div class="container action__container">
           <img
             class="action__img action__img_1"
-            src="./images/action/mobile-1.svg"
+            src="./src/images/action/mobile-1.svg"
+            alt=""
           />
           <img
             class="action__img action__img_2"
-            src="./images/action/mobile-2.svg"
+            src="./src/images/action/mobile-2.svg"
+            alt=""
           />
           <h2 class="action__h2">Наши акции</h2>
           <p class="action__p">
@@ -229,51 +241,60 @@
             <div class="partners-logos__arrow partners-logos__arrow_1">
               <img
                 class="partners-logos__arrow-img partners-logos__arrow-img_1"
-                src="./images/partners/arrow_left.svg"
+                src="./src/images/partners/arrow_left.svg"
+                alt=""
               />
             </div>
 
             <div class="partners-logos__block">
               <img
                 class="partners-logos__img"
-                src="./images/logos/logo_prada.png"
+                src="./src/images/logos/logo_prada.png"
+                alt=""
               />
 
               <img
                 class="partners-logos__img"
-                src="./images/logos/logo_nike.png"
+                src="./src/images/logos/logo_nike.png"
+                alt=""
               />
 
               <img
                 class="partners-logos__img"
-                src="./images/logos/logo_cym.png"
+                src="./src/images/logos/logo_cym.png"
+                alt=""
               />
 
               <img
                 class="partners-logos__img"
-                src="./images/logos/logo_adidas.png"
+                src="./src/images/logos/logo_adidas.png"
+                alt=""
               />
 
               <img
                 class="partners-logos__img"
-                src="./images/logos/logo_gum.png"
+                src="./src/images/logos/logo_gum.png"
+                alt=""
               />
 
               <img
                 class="partners-logos__img"
-                src="./images/logos/logo_zara.png"
+                src="./src/images/logos/logo_zara.png"
+                alt=""
               />
 
               <img
                 class="partners-logos__img"
-                src="./images/logos/logo_carlo.png"
+                src="./src/images/logos/logo_carlo.png"
+                alt=""
               />
             </div>
 
             <div class="partners-logos__arrow partners-logos__arrow_2">
               <img
                 class="partners-logos__arrow-img partners-logos__arrow-img_2"
-                src="./images/partners/arrow_right.svg"
+                src="./src/images/partners/arrow_right.svg"
+                alt=""
               />
             </div>
           </div>
